@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/signup.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <h2 class="name" >Retailer SingUp</h2> 
+<div class="box-2" >   
+    <div class="register">
+          <form >
+            <h1>SignUp</h1>
+                   <div class="user1">
+                       <label>Username</label>
+                       <input type="text" placeholder="Enter username" required=""></input>
+                   </div>
+                   <div class="pass1">
+                       <label>Email</label>
+                       <input type="email" placeholder="Enter Email" required="">
+                   </div>
+                   <div class="pass1">
+                       <label>Password</label>
+                       <input type="password" placeholder="Enter password" required="">
+                   </div>
+                  <button class="btnlog" type="submit">SignUp</button>
+             <a href="/login"><button class="ca" >Have an account?</button> </a>
+         </form>
+         </div>
+         </div>  
+         <img class="logs" src="{{url_for('static', filename='logs.png')}}" alt=""/>     
+</div>
+</body>
+</html>

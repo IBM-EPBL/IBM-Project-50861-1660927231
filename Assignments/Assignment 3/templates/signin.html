@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/login.css') }}">
+    <title>Document</title>
+    
+</head>
+<body>
+    {% extends 'index.html' %}
+
+    {% block main %}
+    <div >
+        <h2 class="name">Sign In</h2> 
+
+<div class="box" >
+   <div class="login" >
+           <form>
+                   <h1>Signin</h1>
+                     <div class="user">
+                       <label>Email</label>
+                       <input type="text" placeholder="Enter email" required="" >
+                    </div>
+                    <div class="pass">
+                       <label>Password</label>
+                       <input type="password" placeholder="Enter password" required="" >
+                   <button class="btnlog" type="submit">Signin</button>
+                    <a href="/reg.html" class="ca" >I don't have an account?</a>
+         </form>   
+        </div>
+   </div>   
+   <img class="log" src="{{url_for('static', filename='acc.png')}}" alt=""/>    
+</div>    
+{% endblock %} 
+</body>
+</html>
