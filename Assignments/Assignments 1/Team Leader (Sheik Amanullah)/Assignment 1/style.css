@@ -1,0 +1,64 @@
+* {
+    top: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(88, 85, 85);
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+.main{
+    margin: 15px ;
+}
+.boxs{
+    display: flex
+}
+.box1{
+    width:350px;
+    height:600px;
+    background-color: rgb(55, 56, 56);
+    margin: 0px 0px 0px 150px ;
+   
+}
+.box2{
+    width:1000px;
+    height:600px;
+    background-color: rgb(198, 209, 218);
+    margin: 0px 100px 30px 0px ;
+    padding: 20px 40px;
+   
+}
+img{
+    width: 150px;
+    margin: 20px 20px 0px 30px;
+}
+.names{
+   margin: 10px 0px 0px 15px;
+   color: rgb(176, 180, 184);
+}
+
+progress{
+    width: 180px;
+    height: 10px;
+}
+.bars{
+    margin-left: 20px 
+}
+.name h1{
+    font-size: 60px;
+    
+}
+.name{
+display: flex;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.name h2{
+    position: absolute;
+    margin-top: 140px;
+
+}
+h3{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
