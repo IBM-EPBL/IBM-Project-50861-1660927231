@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/signup.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'index.html' %}
+
+    {% block signup %}
+    <div >
+        <h2 class="name" >Retailer SingUp</h2> 
+<div class="box-2" >   
+    <div class="register">
+          <form  action = "{{ request.path }}"  method = "POST">
+            <h1>SignUp</h1>
+                   <div class="user1">
+                       <label for ="name">Username</label>
+                       <input type="text" placeholder="Enter username" required="" name="name"></input>
+                   </div>
+                   <div class="pass1">
+                       <label for ="email">Email</label>
+                       <input type="email" placeholder="Enter Email" required="" name="email">
+                   </div>
+                   <div class="pass1">
+                       <label for="password">Password</label>
+                       <input type="password" placeholder="Enter password" required="" name="password">
+                   </div>
+                  <button class="btnlog" type="submit" >SignUp</button>
+             
+         </form>
+         </div>
+         </div>  
+         <img class="logs" src="{{url_for('static', filename='logs.png')}}" alt=""/>     
+</div>
+{% endblock %}
+</body>
+</html>
