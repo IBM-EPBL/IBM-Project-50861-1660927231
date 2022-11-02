@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cloud-object-storage-er-cos-standard-1xw.s3.jp-tok.cloud-object-storage.appdomain.cloud/new.css">
+</head>
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "72a71296-bd9a-4d9e-a294-f6138691e88b", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "b39ed3ed-832b-44fb-bd79-46948f50472d", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <style>
+    img{
+      width: 250px;
+      height:250px
+    }
+  </style>
+<body>
+<h1>Images from cloud object storage</h1>
+<div class="grid-container">
+  <div class="item1"><img src="https://ibm-my-bucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos1.jpg" alt="HSM"></div>
+ <div class="item2"><img src="https://ibm-my-bucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos2.webp" alt="HSM"></div>
+ <div class="item3"><img src="https://ibm-my-bucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos3.jpg" alt="HSM"></div>
+ <div class="item4"><img src="https://ibm-my-bucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos4.webp" alt="HSM"></div>
+ <div class="item5"><img src="https://ibm-my-bucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos5.jpg" alt="HSM"></div>
+  
+ </div>
+</body>
+</html>
