@@ -1,6 +1,8 @@
 from flask import Flask, redirect, url_for, render_template,request,flash
 from flask_sqlalchemy import SQLAlchemy
+import ibm_db
 
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=3883e7e4-18f5-4afe-be8c-fa31c41761d2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31498;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=qpm23984;PWD=XaDaPlC4zHfFcbX7",'','')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "random string"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///names.sqlite3'
