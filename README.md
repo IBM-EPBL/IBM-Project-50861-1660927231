@@ -8,6 +8,6 @@ Public IP Deployment on IBM Kubernetes: <a href="http://169.51.194.232:31569/">D
    <h1>Inventory Management System for Retailers</h1>
    <h3>IBM-Project-48229-1660805792</h3>
    <h3>Team ID: PNT2022TMID24001</h3>
-   <h3>By: Sheik Amanullah U <br> Mohamed Hussain Kani S <br> Ahamed Jaasir H <br> Mohieddin Abdul Qadhar </h3>
+   <h3>By: <br> Sheik Amanullah U <br> Mohamed Hussain Kani S <br> Ahamed Jaasir H <br> Mohieddin Abdul Qadhar </h3>
 </div>
 
