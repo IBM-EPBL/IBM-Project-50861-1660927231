@@ -1,6 +1,6 @@
 ##
 Project Demonstration Video: <a href="https://youtu.be/sljjfILm-9w"> Demo Link</a><br>
-Public IP Deployment on IBM Kubernetes: <a href="http://169.51.194.232:31569/">Deployment Link</a>
+Public IP Deployment on IBM Kubernetes: <a href="http://169.51.194.232:30658/">Deployment Link</a>
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"  align="center" alt="drawing" width="200" />
